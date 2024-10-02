@@ -4,8 +4,24 @@
 ** Dica** Use umloop `while e uma variável de controle.*/
 
 
-let contador = 1;
-while(contador <=5) {
-    console.log(contador)
-        contador +=1;
-}
+// let contador = 1;
+// while(contador <=5) {
+//     console.log(contador)
+//         contador +=1;
+// }
+
+
+// /*2 - Apenas com do While */
+// let contador =1
+// do {
+//  console.log(contador);
+//  contador++;
+// }while(contador <=5);
+
+
+/*3 - Apenas com For */
+for(let contador = 1;contador
+    <=5; contador ++) {
+        console.log(contador);
+    }
+    
